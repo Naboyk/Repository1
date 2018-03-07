@@ -2,16 +2,37 @@
 <html lang=en>
 	<head>
 		<title>Contact Us</title>
+		<link rel="stylesheet" type="text/css" href="restaurantStyles.css"/>
+	<style>
+	body{
+	background-color:#DEDEDE;
+	}
+	#navigation {
+	background-color:#C47C7C;  
+	}
+	label {
+	font-weight:bold;
+	}
+	fieldset {
+	font-weight:bold;
+	}
+	</style>
 	</head>
 	<body>
 		<hr />
+		<div id=title>
 		<h1>The All American</h1>
+		</div>
 		<hr />
+		<div id=navigation>
 			<a href="index.html" target="_self">Home</a>
 			<a href="Menu.html" target="_self">Menu</a>
 			<a href="contactUs.html" target="_self">Contact Us</a>
+		</div>
 		<hr />
+		<div id=inputs>
 		<form action="submit.html" method="POST"></form>
+			<div>
 			<label for="name">Name:</label>
 			<input type= "text" id="name" name="name"><br />
 			<label for="Email">Email:</label>
@@ -19,6 +40,7 @@
 			<label for="Phone">Phone:</label>
 			<input type="text" id="Phone" name="Phone"><br />
 			<label for="ReasonsForInquiry"> Reason For Inquiry:</label>
+			</div>
 		<select id="ReasonsForInquiry" name="ReasonForInquiry">
 			<option value="default" selected>Catering</option>
 			<option value="Private Party">Private Party</option>
@@ -48,7 +70,10 @@
 			<label for="Friday">F</label><br />
 		</fieldset>
 		<input type="submit" name="submit" value="Submit">
+		</div>
 		<hr />
-	<h2>18273 Troy Clare rd, Cleveland,Ohio,44356<br /> 404-834-3663</h2>
+		<div id=footer>
+			<p>18273 Troy Clare rd, Cleveland,Ohio,44356<br /> 404-834-3663</p>
+		</div>
 	</body>
 </html>

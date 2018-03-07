@@ -1,0 +1,26 @@
+/* Common elements across all pages */
+#title{
+	background-color:#E17979;
+	text-align:center;
+} 
+#content{
+	text-align:center;
+
+}
+#footer{
+	background-color:#E17979;
+	text-align:center;
+}  
+a:link{
+		color: #00A2FF; 
+	}
+	
+	a:hover{
+		color: #000000;
+		font-weight:bold;
+	}
+	
+	a:active{
+		color: #00C1FF; 
+		text-decoration:none;
+	}  
