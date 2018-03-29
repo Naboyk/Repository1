@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="restaurantStyles.css"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- My stylesheet -->
 	<style>
 	body {
 	background-color:#DACDCD;
@@ -13,7 +14,7 @@
 	</style>
 	<title>The All American</title>
 </head>
-<body>
+<body onload="onloadFunction()">
 	<div id=page>
 		<div class="title">
 			<h1>The All American</h1>
@@ -71,11 +72,9 @@
 		</div>
 	</div>
 	<hr /> 
-<!--THE IMAGE DOES NOT LOOK GOOD WITH THE CAROUSEL SO I LEFT IT IN A COMMENT FOR SAFE KEEPING-->
-<!--<div id="image">
+	<div id="image">
 		<img src="Images/Restaurant.jpg" alt="Restaurant" style="display:block; margin-left: auto;margin-right:auto; width:50%;"/>	
 	</div>
--->
 	<div id="content">Restaurant Description:
 		<p>Fusce accumsan ligula congue nunc aliquet consequat. Aliquam et urna elit. Quisque suscipit luctus libero a dictum. Nunc ullamcorper elit non magna tincidunt, et condimentum mauris ultrices. Maecenas pellentesque lacinia lorem eu ullamcorper. Vestibulum convallis, eros iaculis blandit congue, lectus nunc dictum purus, sit amet scelerisque eros justo in felis. Donec sollicitudin finibus nunc ac sollicitudin. Morbi ut congue lectus, quis tempor lacus. Aenean id diam tortor. Praesent ultrices fermentum erat eu volutpat. Fusce a metus ac enim luctus interdum ac ut turpis. Aliquam molestie quis sem at facilisis. Donec eu enim accumsan, pellentesque ligula a, porttitor arcu. Vivamus euismod nunc efficitur, fringilla massa non, egestas mi.</p>
 	</div>
@@ -86,5 +85,6 @@
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="restaurantJavaScriptSheet.js"></script>
 </body>
 </html>
