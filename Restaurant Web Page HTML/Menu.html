@@ -1,93 +1,105 @@
 <!DOCTYPE html>
-<html lang=en>
+<html lang="en">
 <head>
-		<title>Menu</title>
-		<link rel="stylesheet" type="text/css" href="restaurantStyles.css"/>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="restaurantStyles.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<style>
 	body{
-	background-color:#C6C6C6;
-	} 
-	#navigation {
-	background-color:#C47C7C;  
+	background-color:#DACDCD;
+	font-family: Arial, Helvetica, sans-serif;
 	}
+	
 	table, th, td {
 	text-align:center;
 	}
+	
 	table {
 	margin-left:auto;
 	margin-right:auto;
 	}
+	
 	th {
 	font-size:24px;
 	}
-
 	</style>
+	<title>Menu</title>
 </head>
 <body>
-	<div id=title>
-		<h1> The All American </h1>
+	<div class=title>
+		<h1>The All American </h1>
+	</div>
+		<hr />
+	<div class="navigation"> 
+		<ul class="nav nav-pills nav-justified">
+			<li class="nav-item"> 
+				<a class="nav-link" href="index.html" target="_self">Home</a> </li>
+			<li class="nav-item"> 
+				<a class="nav-link active" href="Menu.html" target="_self">Menu</a> </li>
+			<li class="nav-item"> 
+				<a class="nav-link" href="contactUs.html" target="_self">Contact Us</a> </li>
+		</ul>
 	</div>
 	<hr />
-	<div id=navigation>
-		<p> 
-		<a href="index.html" target="_self">Home</a>
-		<a href="Menu.html" target="_self">Menu</a>
-		<a href="contactUs.html" target="_self">Contact Us</a>
-		</p>
-		<hr />
-	</div>
 	<div id=food>
-	<table>
-		<tr>
-		<th><b> Burger and Fries</b> </th>
-		<th><b> Hot Dog and Chips</b> </th>
-		<th><b> Italian Sausage and Peppers</b></th>
-		</tr>
-		<tr>
-			<td> Your choice - with or without cheese<br /> Pickle, onion, tomato, and lettuce<br /> Served with our famous thick cut French fries<br /> $7.95</td>
-			<td> A summer Classic!<br /> Your choice - white or wheat bun<br /> Relish, mustard, and ketchup<br /> Served with our house-made chips<br /> $7.95</td>
-			<td> An All-Time Favorite!!<br /> Your choice - mild or spicy<br />Cole Slaw Served with garlic mashers<br /> $10.95</td>
-		</tr>
-		<tr>
-			<th><b> Tenderloin Sandwich and Chips</b></th>
-			<th><b> House Salad</b></th>
-			<th><b> Brisket and Fries</b></th>
-		</tr>
-		<tr>
-			<td> Really Hits the Spot!<br /> Plain or Sesame Seed Bun<br />Pickel,onion,tomato,and lettuce<br /> Served with our house-made chips<br /> $8.95</td>
-			<td> On the Lighter Side <br /> Your choice - with or without cheese<br /> Iceberg lettuce, tomatoes, pepper<br /> Thousand Island or Ranch Dressing<br /> Served with our dinner roll<br /> $6.95</td>	
-			<td> A Taste of Texas!<br /> Smoked Brisket on thick-cut Texas Toast<br /> Cole Slaw <br /> Served with our famous thick-cut French fries<br /> $7.95</td>
-		</tr>
-	</table>
+		<table class=food>
+				<tr>
+					<th><b> Burger and Fries</b> </th>
+					<th><b> Hot Dog and Chips</b> </th>
+					<th><b> Italian Sausage and Peppers</b></th>
+				</tr>
+				<tr>
+					<td> Your choice - with or without cheese<br /> Pickle, onion, tomato, and lettuce<br /> Served with our famous thick cut French fries<br /> $7.95</td>
+					<td> A summer Classic!<br /> Your choice - white or wheat bun<br /> Relish, mustard, and ketchup<br /> Served with our house-made chips<br /> $7.95</td>
+					<td> An All-Time Favorite!!<br /> Your choice - mild or spicy<br />Cole Slaw Served with garlic mashers<br /> $10.95</td>
+				</tr>
+				<tr>
+					<th><b> Tenderloin Sandwich and Chips</b></th>
+					<th><b> House Salad</b></th>
+					<th><b> Brisket and Fries</b></th>
+				</tr>
+				<tr>
+					<td> Really Hits the Spot!<br /> Plain or Sesame Seed Bun<br />Pickel,onion,tomato,and lettuce<br /> Served with our house-made chips<br /> $8.95</td>
+					<td> On the Lighter Side <br /> Your choice - with or without cheese<br /> Iceberg lettuce, tomatoes, pepper<br /> Thousand Island or Ranch Dressing<br /> Served with our dinner roll<br /> $6.95</td>	
+					<td> A Taste of Texas!<br /> Smoked Brisket on thick-cut Texas Toast<br /> Cole Slaw <br /> Served with our famous thick-cut French fries<br /> $7.95</td>
+				</tr>
+		</table>
 	</div>
 	<div id=drinks>
-	<table>
-		<th style="text-decoration:underline;">Beverages</th>
-	<tr>
-		<th> Root Beer<th>
-		<td> $3.00 <td>
-	</tr>
-	<tr>
-		<th> Root Beer<th>
-		<td> $3.00 <td>
-	</tr>
-	<tr>
-		<th> Bottle Water<th>
-		<td> $1.25 <td>
-	</tr>
-	<tr>
-		<th> Lemonade<th>
-		<td> $1.00 <td>
-	</tr>
-	<tr>
-		<th> Iced Tea<th>
-		<td> $1.25 <td>
-	</tr>
-	</table>
+		<table class="drinks">
+			<tr>
+			<th id="beverages">Beverages</th>
+			<td><!-- Filler --></td>
+			</tr>
+			<tr>
+				<th> Software Guild Brew </th>
+				<td> $5.00 </td>
+			</tr>
+			<tr>
+				<th> Root Beer</th>
+				<td> $3.00 </td>
+			</tr>
+			<tr>
+				<th> Lemonade</th>
+				<td> $1.25 </td>
+			</tr>
+			<tr>
+				<th> Iced Tea</th>
+				<td> $1.25 </td>
+			</tr>
+			<tr>
+				<th> Bottle Water</th>
+				<td> $1.00 </td>
+			</tr>
+		</table>
 	</div>
-	<hr />
-	<div id=footer>
-	<p>18273 Troy Clare rd, Cleveland,Ohio,44356<br /> 404-834-3663</p>
+		<hr />
+	<div class=footer>
+		<p> 18273 Troy Clare rd, Cleveland,Ohio,44356<br /> 404-834-3663 </p>
 	</div>
-</body>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
 </html>

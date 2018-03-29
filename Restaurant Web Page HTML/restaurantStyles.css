@@ -1,18 +1,49 @@
 /* Common elements across all pages */
-#title{
-	background-color:#E17979;
+.title{
+	background-color:#000000;
 	text-align:center;
+	color:#FFFFFF;
+	font-family:'Coiny', cursive; 
+	src:<link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet"> 
 } 
+.navigation {
+	background-color:#000000; 
+}
 #content{
 	text-align:center;
-
 }
-#footer{
-	background-color:#E17979;
+.jumbotron{
 	text-align:center;
+	background-color:#000000 !important;
+}
+#my-slider{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+.footer{
+	background-color:#000000;
+	text-align:center;
+	color:#FFFFFF;
 }  
+#food{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+.food{
+	border:0;
+	width:1200px;
+}
+.drinks{
+	width:400px;
+}
+#beverages{
+	 text-decoration:underline;
+}
 a:link{
-		color: #00A2FF; 
+		color: #00A2FF;
+		text-decoration:underline;
 	}
 	
 	a:hover{
