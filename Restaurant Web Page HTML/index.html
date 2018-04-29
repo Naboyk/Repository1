@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="restaurantStyles.css" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
 	 crossorigin="anonymous">
-	 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<!-- My stylesheet -->
 	<style>
 		body {
@@ -24,22 +24,29 @@
 			<h1>The All American</h1>
 		</div>
 		<hr />
+		<!--Jumbotron at the top of the page-->
 		<div class="jumbotron">
 			<h1 class="display-4" style="background-color:#000000; color:#FFFFFF;">Opening a New Location Soon </h1>
 		</div>
 		<hr />
+
 		<!--WHEN ADDING THE <SPAN= GLYPHICONS GYLPHICONS-HOME></SPAN> THE ICON DOES NOT SHOW UP INSIDE THE PILL. IT IS STILL PRESENT IN MY CODE THOUGH-->
+
+		<!--Carasel Code below-->
 		<div class=navigation>
 			<ul class="nav nav-pills nav-justified">
 				<li class="nav-item">
 					<a class="nav-link active" href="index.html" target="_self">
-						<span class="glyphicons glyphicons-home"></span><i class="fa fa-home"></i> Home</a>
+						<span class="glyphicons glyphicons-home"></span>
+						<i class="fa fa-home"></i> Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="Menu.html" target="_self"><i class="fa fa-bars"></i> Menu</a>
+					<a class="nav-link" href="Menu.html" target="_self">
+						<i class="fa fa-bars"></i> Menu</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="contactUs.html" target="_self"><i class="fa fa-envelope-open"></i> Contact Us</a>
+					<a class="nav-link" href="contactUs.html" target="_self">
+						<i class="fa fa-envelope-open"></i> Contact Us</a>
 				</li>
 			</ul>
 		</div>
@@ -80,11 +87,20 @@
 		</div>
 	</div>
 	<hr />
-	<div id="image">
+
+	<!--Basic still picture on website, Would like to move text above picture or remove it completly. Will probably put it in message brackets.-->
+	<!-- 
+		
+		<div id="image">
 		<img src="Images/Restaurant.jpg" alt="Restaurant" style="display:block; margin-left: auto;margin-right:auto; width:50%;"
 		/>
-	</div>
-	<div id="content">Restaurant Description:
+	</div> 
+
+	-->
+
+	<!--Resturants Description-->
+	<div id="content"> 
+		<h2> Restaurant Description:</h2>
 		<p>Fusce accumsan ligula congue nunc aliquet consequat. Aliquam et urna elit. Quisque suscipit luctus libero a dictum. Nunc
 			ullamcorper elit non magna tincidunt, et condimentum mauris ultrices. Maecenas pellentesque lacinia lorem eu ullamcorper.
 			Vestibulum convallis, eros iaculis blandit congue, lectus nunc dictum purus, sit amet scelerisque eros justo in felis.
@@ -98,6 +114,7 @@
 		<p> 18273 Troy Clare rd, Cleveland,Ohio,44356
 			<br /> 404-834-3663</p>
 		<br />
+		<!--Bootstrap Links + JS file link-->
 	</div>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
 	 crossorigin="anonymous"></script>
